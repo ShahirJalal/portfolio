@@ -70,7 +70,7 @@ export const portfolio = {
   ],
 
   contact: {
-    email: 'your@email.com',
+    email: 'shahirjalalhazli@gmail.com',
     github: 'https://github.com/ShahirJalal',
     linkedin: 'https://linkedin.com'
   }

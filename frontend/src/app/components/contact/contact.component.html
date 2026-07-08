@@ -1,1 +1,26 @@
-<p>contact works!</p>
+<section id="contact" class="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+        Feel free to reach out if you'd like to discuss software development,
+        cloud technologies or collaboration.
+    </p>
+
+    <div class="links">
+
+        <a [href]="'mailto:' + portfolio.contact.email">
+            {{ portfolio.contact.email }}
+        </a>
+
+        <a [href]="portfolio.contact.github" target="_blank">
+            GitHub
+        </a>
+
+        <a [href]="portfolio.contact.linkedin" target="_blank">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>

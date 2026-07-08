@@ -1,0 +1,32 @@
+.contact {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 100px 20px;
+
+    text-align: center;
+}
+
+.links {
+
+    margin-top: 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.links a {
+
+    text-decoration: none;
+
+    color: #1976d2;
+
+    font-weight: 600;
+}

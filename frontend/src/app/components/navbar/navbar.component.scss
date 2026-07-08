@@ -1,0 +1,60 @@
+.navbar {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    height: 70px;
+
+    padding: 0 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: white;
+
+    border-bottom: 1px solid #eee;
+
+    z-index: 1000;
+}
+
+.logo {
+
+    font-size: 1.3rem;
+
+    font-weight: bold;
+}
+
+ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 30px;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+a {
+
+    text-decoration: none;
+
+    color: #333;
+
+    font-weight: 500;
+}
+
+a:hover {
+
+    color: #1976d2;
+}
